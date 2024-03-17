@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>text to speech</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <textarea id="text"></textarea>
+            <div class="controls">
+                <label for="speed">Speed</label>
+                <input id="speed" type="number" min="0.5" max="3" step="0.5" value="1">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
